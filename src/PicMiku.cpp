@@ -2,7 +2,7 @@
 
 int main() {
     cv::Mat img;
-    img = cv::imread("./media/Miku.jpg", 0);
+    img = cv::imread("./media/Miku.jpg");
 
     cv::imshow("Picture", img);
     cv::waitKey(0);
