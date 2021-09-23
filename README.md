@@ -10,7 +10,7 @@ $ git clone https://github.com/nashinium/Miku-on-OpenCV
 ### Build C++ file & Execute (on WSL2)
 ```shell
 $ cd Miku-on-OpenCV
-$ g++ src/PicMiku.cpp `pkg-config --cflags --libs opencv4`
+$ g++ src/main.cpp `pkg-config --cflags --libs opencv4`
 $ ./a.out 
 ```
 ### Run Python script
