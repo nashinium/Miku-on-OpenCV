@@ -4,7 +4,7 @@ int
 main()
 {
     cv::Mat img;
-    img = cv::imread("./src/media/Miku.jpg");
+    img = cv::imread("./src/media/Miku.png");
 
     cv::imshow("Picture", img);
     cv::waitKey(0);
