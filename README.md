@@ -1,7 +1,7 @@
 # Miku on OpenCV (Working on WSL2)
 ![Screenshot_14](https://user-images.githubusercontent.com/61770052/134467102-41ec3285-fe34-4ce8-91f2-4e3a3dd6c4df.jpg)
 Display HatsuneMiku using OpenCV, written in C++ & Python.<br>
-This Program will work on WSL environment. (WSLg is required)
+Programs work on WSL environment. (WSLg is required)
 ## Guide
 ### Clone
 ``` shell
