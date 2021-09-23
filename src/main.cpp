@@ -1,22 +1,22 @@
-#include <opencv2/opencv.hpp>
 #include <iostream>
+#include <opencv2/opencv.hpp>
 using namespace cv;
 using namespace std;
 
 int
-main(){
+main()
+{
     char input;
     cout << "Select media type which you want to display... ('v' for "
             "video, 'p' for Picture)\n>> ";
     cin >> input;
-    
-    if(input=='p') {
+
+    if (input == 'p') {
         cv::Mat img;
         img = cv::imread("./src/media/Miku.png");
-
         cv::imshow("Picture", img);
         cv::waitKey(0);
-    } else if(input=='v') {
+    } else if (input == 'v') {
         VideoCapture cap("./src/media/IevanPolkka.mp4");
         if (!cap.isOpened()) {
             cout << "could not open the Video File." << endl;
@@ -33,7 +33,7 @@ main(){
             if (k == 27)
                 break;
         }
-    }else
+    } else
         cout << "Invalid value. Program terminated...";
     return 0;
 }
