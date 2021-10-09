@@ -17,7 +17,7 @@ main()
         cv::imshow("Picture", img);
         cv::waitKey(0);
     } else if (input == 'v') {
-        VideoCapture cap("./src/media/IevanPolkka.mp4");
+        VideoCapture cap("./src/media/video.mp4");
         if (!cap.isOpened()) {
             cout << "could not open the Video File." << endl;
             return -1;
