@@ -1,7 +1,10 @@
 # Miku on OpenCV
 ![Screenshot_14](https://user-images.githubusercontent.com/61770052/134467102-41ec3285-fe34-4ce8-91f2-4e3a3dd6c4df.jpg)
 Display HatsuneMiku using OpenCV, written in C++ & Python.<br>
-Created to test the operation of WSLg.
+Created to test the operation of WSLg.<br>
+
+Due to copyright issues, videos cannot be uploaded to the media directory, so please get videos privately.
+
 ## Guide
 ### Clone
 ``` shell
